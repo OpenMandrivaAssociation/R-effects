@@ -10,9 +10,9 @@ License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_2.1-0.tar.gz
 BuildArch:        noarch
-Requires:         R-core
-Requires:         R-lattice R-grid R-nlme R-MASS R-nnet R-colorspace 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-lattice R-grid R-nlme R-MASS R-nnet R-colorspace
+Requires:         R-core R-lattice R-grid R-nlme R-MASS R-nnet R-colorspace
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-lattice
+BuildRequires:    R-grid R-nlme R-MASS R-nnet R-colorspace
 %rename R-cran-effects
 
 %description
