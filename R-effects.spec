@@ -3,8 +3,8 @@
 
 Name:             R-%{packname}
 Version:          2.1_0
-Release:          1
-Summary:          Effect Displays for Linear, Generalized Linear, Multinomial-Logit, Proportional-Odds Logit Models and mixed-effects models
+Release:          2
+Summary:          Graphical and tabular effect displays
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
