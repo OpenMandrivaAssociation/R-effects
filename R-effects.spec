@@ -2,13 +2,13 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          2.1_0
-Release:          3
+Version:          2.2.4
+Release:          1
 Summary:          Graphical and tabular effect displays
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_2.1-0.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/effects_2.2-4.tar.gz
 BuildArch:        noarch
 Requires:         R-core R-lattice R-grid R-nlme R-MASS R-nnet R-colorspace
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-lattice
@@ -45,3 +45,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
+
