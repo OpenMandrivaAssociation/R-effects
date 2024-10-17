@@ -7,7 +7,7 @@ Release:          3
 Summary:          Graphical and tabular effect displays
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_2.1-0.tar.gz
 BuildArch:        noarch
 Requires:         R-core R-lattice R-grid R-nlme R-MASS R-nnet R-colorspace
